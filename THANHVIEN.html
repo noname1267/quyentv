@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Thành viên</title>
+        <style>
+            body{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+            .khung{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 20px;
+                text-align: center;
+                max-width: 800px;
+            }
+            .anh{
+                width: 100%;
+                position: relative;
+            }
+            .anh img{
+                width: 100%;
+                height: 300px;
+                object-fit: cover;
+            }
+            .anh p{
+                font-size: 30px;
+                font-weight: bold;
+                margin-top: 10px;
+            }
+            .top img{
+                object-position: 50% 20%;
+            }
+            .bottom img{
+                object-position: bottom;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="khung">
+            <div class="anh">
+                <img src="https://i.postimg.cc/Bv3tDpTY/c1398d80-c82f-414b-a9e5-00b295fa3c09.jpg">
+                <p>Nguyễn Thanh Thảo</p>
+            </div>
+            <div class="anh">
+                <img src="https://i.postimg.cc/4yY3ZSGd/3a448d85-26ee-41f1-9aad-07cecb9423c0.jpg">
+                <p>Hoàng Trọng Nhật Vũ</p>
+            </div>
+            <div class="anh bottom">
+                <img src="https://i.postimg.cc/sfLXKsPZ/62b0b241f28d43d31a9c.jpg">
+                <p>Nguyễn Ngọc Phương Quyên</p>
+            </div>
+            <div class="anh top">
+                <img src="https://i.postimg.cc/dV2VqCb8/728a2760-5451-4d32-a025-10feceed3cc6.jpg">
+                <p>Phạm Xuân Phú</p>
+            </div>
+        </div>
+    </body>
+</html>
